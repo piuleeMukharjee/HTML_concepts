@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> eighth page </title>
+    </head>
+    <body>
+
+        <!-- form tage is <form></form> -->
+
+        <!-- basic forms -->
+        <form>
+            <div>
+                name:
+                <input type="text"><br>
+            </div>
+        
+
+        <!-- form which contain sumbit button -->
+
+            <div>
+                name:
+                <input type="text">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+
+            <!-- for change the submit quarry text -->
+            <div>
+                name:
+                <input type="text">
+            </div>
+            <div>
+                <input type="submit" value="submit form">
+            </div>
+        </form>
+            
+
+            <!-- There are two type of method by which data is transfered 
+            1. get
+            2.post   -->
+
+            <form method="get"></form>
+            <form method="post"></form>
+
+            <!-- 
+            by method = get 
+            default action = same page
+            -->
+            <form method="get" action="submit.php">
+                <div>
+                    name:
+                    <input type="text">
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+
+            <form method="post" action="'submit.php">
+                <div>
+                    name:
+                    <input type="text">
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+
+                <!-- this action is used to get or post the form on the page or on the other page --> 
+
+
+                <!-- Form input type -->
+            <form>
+                <div>
+                    text:
+                    <input type="text">
+                </div>
+
+                <div>
+                    submit button:
+                    <input type="submit">
+                </div>
+
+                <div>
+                    color:
+                    <input type="color">
+                </div>
+
+                <div>
+                    date:
+                    <input type="date">
+                </div>
+
+                <div>
+                    email:
+                    <input type="email">
+                </div>
+
+                <div>
+                    hidden:
+                    <input type="hidden">
+                </div>
+
+                <div>
+                    hidden:
+                    <input type="hidden" value="'delhi">
+                </div>
+
+                <div>
+                    number:
+                    <input type="number">
+                </div>
+
+                <div>
+                    password:
+                    <input type="password">
+                </div>
+
+                <div>
+                    reset:
+                    <input type="reset">
+                </div>
+
+                <div>
+                    time:
+                    <input type="time">
+                </div>
+
+                <div>
+                    url:
+                    <input type="url">
+                </div>
+
+                <div>
+                    range:
+                    <input type="range">
+                </div>
+            </form>
+
+            <!-- Form file upload -->
+            <!-- 1. for 1 file -->
+            <form enctype="multipart/form-data">
+                <input type="file">
+            </form>
+
+            <!-- 2. for multiple file -->
+            <form enctype="multipart/form-data">
+                <input type="file"multiple>
+            </form>
+
+
+        <!-- VARIOUS INPUT ATTRIBUTE -->
+        <!-- noob programmer-->
+        <form>
+            <input type="text"><br>
+            <input type="submit"> <br> 
+            <!-- for Pro programmer tips -->
+            
+            <!-- change submit button text-->
+            <input type="submit" value="go"><br>
+            
+            <!-- for default input -->
+            <input type="text" value="name"><br>
+            
+            <!-- for read only text -->
+            <input type="text" value="piu" readonly><br>
+
+            <!-- for fade text/ disabled text -->
+            <input type="text" value="name" disabled><br>
+
+            <!-- size attribute -->
+            <input type="text" size="5"><br>
+
+            <!-- for max length -->
+            <input type="text" maxlength="5" size="20"><br>
+
+            <!-- min and max -->
+            <input type="number" min="3" max="5" ><br>
+
+            <!-- Place holder -->
+            <input type="text" placeholder="enter name" required><br>
+
+            <!-- required/need to fill -->
+            <input type="text" placeholder="enter name" required><br>
+
+            <!-- step -->
+            <input type="number" value="1" step="2"><br>
+
+            <!-- autofocus -> by default cursor is show in the box -->
+            <input type="text" autofocus><br>
+
+            <!-- autocomplete:- by default it is on -->
+            <input type="text" autocomplete="on"><br>
+            
+            <!-- name:- use for backend -->
+            <input type="text" name="first_name">   
+            <input type="text" name="last_name">
+        </form>
+            
+            <!-- HTML Textarea -->
+            <!-- for big box/discription -->
+
+            <form>
+                <text area> </text>
+            </form>
+
+            <form>
+                <textarea rows="20" column="60" placeholder="enter discription"> hello.....</textarea>
+                <!-- enter discription will be hide or cant be remooved -->
+                <!-- hello.... can be removed and showed -->
+            </form>
+
+
+            <!-- for use image in submit button -->
+        <form>
+            <input type="image" src="C:\Users\piulee\OneDrive\Desktop\doc\google.png" width="100" height="50">
+        </form>
+
+
+            <!-- html form select option -->
+            <!-- dropdown form -->
+            <form>
+                <select>
+                    <option> audi </option>
+                    <option value="1"> audi </option>
+                    <option value="2"> tata </option>
+                    <option value="3" selected > bmw </option>
+                    <!-- by default bmw is selected -->
+                </select>
+            </form>
+
+
+            <!-- for 2 element show in dropdown -->
+            <form>
+                <select size="2"></select>
+            </form>
+
+            <!-- for multiple selection -->
+            <form>
+                <select multiple>
+                </select>
+            </form>
+
+
+            <!-- group the option -->
+            <form>
+                <select>
+                    <optgroup label="car">
+                        <option value="audi" > audi </option>
+                        <option value="audi" > tata </option>
+                        <option value="audi" > bmw </option>
+                    </optgroup>
+                    <optgroup label="sports">
+                        <option value="audi" > cricket </option>
+                        <option value="audi" > hockey </option>
+                        <option value="audi" > football </option>
+                    </optgroup>
+                </select>
+            </form>
+        
+<!-- radio button -->
+<!-- for all option to be select -->
+        <form>
+            <input type="radio"  value="male"> male
+            <input type="radio"  value="female"> female
+            <input type="radio" value="other" > other
+        </form>
+
+        <!-- for one option to be select -->
+        <!-- for this name is always same -->
+        <form>
+            <input type="radio" name="gender" value="male"> male
+            <input type="radio" name="gender" value="female"> female
+            <input type="radio" name=gender value="other" > other
+        </form>
+        <!-- example -->
+        <form>
+            <input type="radio" name="gender" value="male"> male
+            <input type="radio" name="gender" value="female"> female
+            <input type="radio" name=gender value="other" > other 
+            <br>
+            <input type="radio" name="emptype" value="manager"> manager
+            <input type="radio" name="emptype" value="developer" > developer
+        </form>
+
+        <!--by default check in any option-->
+        <form>
+            <input type="radio" name="gender" value="male"> male
+            <input type="radio" name="gender" value="female" checked > female
+            <input type="radio" name=gender value="other" > other 
+            <br>
+            <input type="radio" name="emptype" value="manager"> manager
+            <input type="radio" name="emptype" value="developer" checked > developer
+        </form>
+
+
+        <!-- CHECK BOX -->
+        <!--
+            difference in check box and radio box is:-
+            in check box we can select many but in radio we can select one only 
+         -->
+        <form>
+            <input type="checkbox" name="sports">cricket
+            <input type="checkbox" name="sports">football
+            <input type="checkbox" name="sports">hockey
+            <!-- name is same for all but still you can select all or many-->
+        </form>
+
+        <!-- DATA LIST-->
+        <!-- like google it shows the similar type of data in list -->
+        <form>
+            search<input type="text" list="search"> <!-- we have to make an id in datalist and have to connect it in search -->
+            <datalist id="search">
+                <option value="apple">
+                <option value="mango">
+                <option value="orange">
+                <option value="car">
+            </datalist>
+            <input type="submit" value="search">
+        </form>
+
+        <!-- SOME SPECIAL TAGS -->
+        <!-- 1.LABEL,  2.FIELDSET,  3.LEGEND  -->
+        <form>
+        first_name
+        <div>
+            <input type="text" name="first_name">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+        <!-- Wrong way-->
+        </form>
+        <form>
+        <label>first_name</label>
+        <div>
+            <input type="text" name="first_name">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+
+        <!-- now ae can connect box and level tag -->
+        <form>
+            <div>
+                <label for="fname">first_name</label>
+                <input type="text" name="first_name" id="fname">
+                <label for="lname">last_name</label>
+                <input type="text" name="last_name" id="lname">
+            </div>
+        </form>
+
+
+
+
+        <!-- WITHOUT FIELDSET TAG -->
+        <form>
+        <div>
+            <label for="fname">first_name</label>
+            <input type="text" name="first_name" id="fname">
+            <label for="lname">last_name</label>
+            <input type="text" name="last_name" id="lname">
+        </div>
+
+        <div>
+            <label for="address">address</label>
+            <input type="text" name="address" id="address">
+            <label for="mobile">mobile</label>
+            <input type="number" name="mobile" id="mobile">
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+
+    <!-- with fieldset tag-->
+    <form>
+        <fieldset>
+            <label for="fname">first_name</label>
+            <input type="text" name="first_name" id="fname">
+            <label for="lname">last_name</label>
+            <input type="text" name="last_name" id="lname">
+        </fieldset>
+
+        <fieldset>
+            <label for="address">address</label>
+            <input type="text" name="address" id="address">
+            <label for="mobile">mobile</label>
+            <input type="number" name="mobile" id="mobile">
+        </fieldset>
+
+        <fieldset>
+            <input type="submit">
+        </fieldset>
+
+        <!-- FOR LEVELING THE BOX WE USE LEGEND TAG-->
+        <form>
+            <fieldset>
+                <legend> basic information </legend>
+                <label for="fname">first_name</label>
+                <input type="text" name="first_name" id="fname">
+                <label for="lname">last_name</label>
+                <input type="text" name="last_name" id="lname">
+            </fieldset>
+    
+            <fieldset>
+                <legend> others </legend>
+                <label for="address">address</label>
+                <input type="text" name="address" id="address">
+                <label for="mobile">mobile</label>
+                <input type="number" name="mobile" id="mobile">
+            </fieldset>
+    
+            <fieldset>
+                <input type="submit">
+            </fieldset>
+    </body>
+</html>

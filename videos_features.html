@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        this is the fifth page 
+        
+        <TITLE> fifth page </TITLE>
+    </HEAD>
+        
+    <BODY>
+        <!-- For creating web page in our web page -->
+        <!-- we use iframe tag -->
+        <iframe src="https://uims.cuchd.in/" height="500" width="1000"></iframe>
+
+        <!-- Audio file in web page-->
+        <audio controls> 
+            <source src="Audio.mp3" type="audio/mpeg"><br>
+        </audio>
+        <audio controls>
+            <source src="Audio.ogg" type="audio/ogg"><br>
+        </audio>
+
+        <!-- Add or embed video in page -->
+        <!-- 1. for user control -->
+        <video controls>
+            <source src="C:\Users\piulee\OneDrive\Pictures\Camera Roll\WIN_20231103_17_27_25_Pro.mp4" type="video/mp4"><br>
+        </video>
+        <video controls>
+            <source src="video.org" type="video/org"><br>
+        </video>
+
+        <!-- 2. for automatic or autoplay-->
+        <video autoplay width="1000" height="1000">
+            <source src="C:\Users\piulee\OneDrive\Pictures\Camera Roll\WIN_20231103_17_27_25_Pro.jpg" type="/video/mp4" ><br>
+        </video>
+
+        <!-- For text notification -->
+        <video control height="100" width="100">
+            <source src="video.mp4" type="video/mp4"> Your browser does not support video
+        </video>
+
+        <!-- Add or embed PDF -->
+        <!-- by three ways we can do this -->
+
+        <!-- 1.-->
+        <embed src="C:\Users\piulee\OneDrive\Desktop\week 2\Students Daily Diary_compressed.pdf" type="application/pdf" width="100" height="100"> <br> </embed>
+
+        <!-- 2. -->
+        <iframe src="C:\Users\piulee\OneDrive\Desktop\week 2\Students Daily Diary_compressed.pdf" width="100" height="100"> <br> </iframe> <!-- you may or may not use tupe in this -->
+
+        <!-- 3. -->
+        <object data="C:\Users\piulee\OneDrive\Desktop\week 2\Students Daily Diary_compressed.pdf" height="100" width="100" type="application/pdf"> <br></object>
+
+        <!-- Emabded youtube video -->
+        <!-- steps
+        choose video  ->  share -> embad(you can get code)   -> copy code   -> past in your html code -->
+        <!-- you may choose height, width option also-->
+        <!-- start button in it can show if you click it and then by default it start with 0 only -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CPfCF4qNShA?si=ZIj2JSpiuNdvbyDJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+        <!-- google map in web page -->
+        <!-- process -->
+        <!--
+            search on google map ->  share ->  embad ->  decide the place or size to show  -> if you want that private  ->  copy html code ->  paste and save it 
+        -->
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.5409465276!2d77.04382439806216!3d28.527252317057897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1717565942474!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+
+    </BODY>
+</HTML>
